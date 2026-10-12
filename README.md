@@ -49,9 +49,11 @@ Then visit http://localhost:8000 (or the URL `serve` prints).
 | `2` | Reserve fuel |
 | `3` | Dynamite |
 | `4` | Teleport to surface |
-| `Esc` | Pause menu (save/load, sound, new game) |
+| `Esc` | Open the pause menu (save/load, sound, new game); close any open menu or shop |
 | `Space` / `Enter` | Select in menus |
 | Arrow keys | Move between menu buttons |
+
+Every menu also has a **×** button in its top-right corner, and clicking outside a menu closes it too. Closing the title screen drops you straight into the game, continuing your save if you have one. Closing the "Pod lost" screen rebuilds the pod.
 
 On touch screens, on-screen buttons appear automatically.
 
